@@ -35,7 +35,7 @@ function echo_cabal_config () {
 	expect_vars HALCYON_DIR
 
 	cat <<-EOF
-		remote-repo:                    hackage.haskell.org:http://hackage.haskell.org/packages/archive
+		remote-repo:                    hdiff.luite.com:http://hdiff.luite.com/packages/archive
 		remote-repo-cache:              ${HALCYON_DIR}/cabal/packages
 		avoid-reinstalls:               True
 		reorder-goals:                  True
